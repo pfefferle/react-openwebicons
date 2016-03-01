@@ -1,0 +1,45 @@
+{
+  "name": "react-openwebicons",
+  "version": "1.1.4",
+  "description": "OpenWebIcons as React components",
+  "homepage": "https://github.com/pfefferle/react-openwebicons#readme",
+  "author": "Matthias Pfefferle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfefferle/react-openwebicons/issues"
+  },
+  "main": "lib/index.js",
+  "config": {
+    "entry": "src",
+    "output": "lib",
+    "mainFile": "src/index.js"
+  },
+  "scripts": {
+    "build": "babel --presets react $npm_package_config_entry --out-dir $npm_package_config_output",
+    "dist": "npm run build",
+    "prepublish": "npm run dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfefferle/react-openwebicons.git"
+  },
+  "keywords": [
+    "react",
+    "openwebicons",
+    "icons",
+    "icon-font",
+    "font",
+    "react-component"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "openwebicons": "*"
+  },
+  "devDependencies": {
+    "openwebicons": "*",
+    "babel": "^5.8.23",
+    "react": "^0.14.0-rc1 || >= 0.13.0, < 0.15.0"
+  }
+}
