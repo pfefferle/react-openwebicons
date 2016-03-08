@@ -1,6 +1,6 @@
 {
   "name": "react-openwebicons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OpenWebIcons as React components",
   "homepage": "https://github.com/pfefferle/react-openwebicons#readme",
   "author": "Matthias Pfefferle",
@@ -40,6 +40,9 @@
   "devDependencies": {
     "openwebicons": "*",
     "babel": "^5.8.23",
+    "react": "^0.14.0-rc1 || >= 0.13.0, < 0.15.0"
+  },
+  "peerDependencies": {
     "react": "^0.14.0-rc1 || >= 0.13.0, < 0.15.0"
   }
 }
