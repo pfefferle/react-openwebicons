@@ -1,22 +1,12 @@
-# react-openwebicons
+# React-OpenWebIcons
+## usage
+- npm/yarn install
+- npm run build
+- npm link
+- cd example 
+- npm/yarn install
+- npm link "react-openwebicons"
+- webpack
+- open index.html in web browser
 
-> A React component for the OpenWebIcons webfont.
-
-## Install
-
-```bash
-npm install --save react-openwebicons
-```
-
-## Usage
-
-```JavaScript
-import React from 'react';
-import ReactDOM from 'react-dom';
-import OpenWebIcon from 'react-openwebicons';
-
-ReactDOM.render(
-  <OpenWebIcon name="openid" />,
-  document.body.appendChild(document.createElement('div'))
-);
-```
+To change the icon, size or color adjust the values in the index.tsx in the example folder and run webpack again

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'OpenWeb Icons';
+    src: url('node_modules/openwebicons/font/openwebicons.eot');
+    src: url('node_modules/openwebicons/font/openwebicons.eot?#iefix') format('embedded-opentype'),
+    url('node_modules/openwebicons/font/openwebicons.woff') format('woff'),
+    url('node_modules/openwebicons/font/openwebicons.ttf') format('truetype'),
+    url('node_modules/openwebicons/font/openwebicons.svg#OpenWebIconsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
